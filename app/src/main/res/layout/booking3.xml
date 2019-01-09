@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/booking3"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/InputTextColor"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/ResumeAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/ResumeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/InputTextColor"
+            android:padding="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/ResumePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/InputTextColor"
+            android:padding="12dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:id="@+id/ResumePriceTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/InputTextColor"
+            android:padding="12dp"/>
+        <Button
+            android:id="@+id/booking3submit"
+            android:layout_marginTop="30dp"
+            android:text="Add Card"
+            android:textColor="@color/ButtonTextColorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton"/>
+    </LinearLayout>
+</LinearLayout>

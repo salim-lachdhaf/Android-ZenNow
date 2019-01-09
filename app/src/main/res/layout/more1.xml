@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/more1"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MenuEditProfile"
+            android:textColor="@color/InputTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_my_profile"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableRight="@drawable/ic_right"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittextnoborder"/>
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:id="@+id/MenuInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invoice"
+            android:textColor="@color/InputTextColor"
+            android:drawableLeft="@drawable/ic_invoice"
+            android:drawableRight="@drawable/ic_right"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittextnoborder"/>
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:id="@+id/MenuRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rating"
+            android:drawableLeft="@drawable/ic_rating"
+            android:drawableRight="@drawable/ic_right"
+            android:padding="12dp"
+            android:textColor="@color/InputTextColor"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittextnoborder"/>
+
+
+        <Button
+            android:id="@+id/MenuRapportIssue"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/rapport_an_issue"
+            android:textColor="@color/ButtonTextColorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/MenuLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:textColor="@color/colorAccent"
+            android:padding="12dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

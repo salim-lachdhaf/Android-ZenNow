@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/booking4"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittextnoborder"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/name_on_the_cart"
+                android:textSize="17sp"
+                android:textColor="@color/InputTextColor"
+                android:padding="12dp"
+                android:background="@drawable/edittextnoborder" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NameOnCarte"
+                android:hint="Salim Lachdhaf"
+                android:inputType="text"
+                android:background="@drawable/edittextnoborder"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/startlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittextnoborder">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cart_number"
+                android:textSize="17sp"
+                android:textColor="@color/InputTextColor"
+                android:padding="12dp"
+                android:background="@drawable/edittextnoborder" />
+            <EditText
+                android:id="@+id/CardNumber"
+                android:inputType="datetime"
+                android:maxLength="19"
+                android:padding="12dp"
+                android:hint="xxxx xxxx xxxx xxxx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextnoborder"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittextnoborder">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cart_expiration"
+                android:textSize="17sp"
+                android:textColor="@color/InputTextColor"
+                android:padding="12dp"
+                android:background="@drawable/edittextnoborder" />
+            <EditText
+                android:id="@+id/CardExpiration"
+                android:padding="12dp"
+                android:inputType="date"
+                android:maxLength="5"
+                android:hint="MM/YY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextnoborder"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittextnoborder">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:text="@string/cart_cvc"
+                android:textSize="17sp"
+                android:textColor="@color/InputTextColor"
+                android:padding="12dp"
+                android:background="@drawable/edittextnoborder" />
+            <EditText
+                android:id="@+id/CardCVC"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="999"
+                android:inputType="number"
+                android:maxLength="3"
+                android:background="@drawable/edittextnoborder"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/booking4submit"
+            android:layout_marginTop="30dp"
+            android:text="Add Card"
+            android:textColor="@color/ButtonTextColorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Android\\ZenNow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_left.xml",
+        "source": "E:\\Android\\ZenNow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_left.xml"
+    },
+    {
+        "merged": "E:\\Android\\ZenNow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\GHOST\\.android\\build-cache\\8a53b1d9ac3ef59ea0b74934d58311f37904478d\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "E:\\Android\\ZenNow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\GHOST\\.android\\build-cache\\8a53b1d9ac3ef59ea0b74934d58311f37904478d\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

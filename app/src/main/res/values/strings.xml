@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ZenNow</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TrackingTab">Dashboard</string>
+    <string name="rating">&#160;&#160;&#160;Rating</string>
+    <string name="invoice">&#160;&#160;&#160;Invoice</string>
+    <string name="edit_my_profile">&#160;&#160;&#160;Edit My Profile</string>
+    <string name="rapport_an_issue">Rapport An Issue</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="personelinformation">Personnal Information</string>
+    <string name="edit">Edit</string>
+    <string name="name_on_the_cart">Name on the cart</string>
+    <string name="cart_number">Cart Number</string>
+    <string name="cart_expiration">Expiration</string>
+    <string name="cart_cvc">CVC</string>
+    <string name="address">Address</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="guards">Guards</string>
+    <string name="prefered_attire">prefered attire:</string>
+    <string-array name="guards">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="attire">
+        <item>Suit</item>
+        <item>Black</item>
+        <item>Casual</item>
+    </string-array>
+
+    <string-array name="event">
+        <item>Office</item>
+        <item>Event</item>
+        <item>Proprety</item>
+        <item>Bar</item>
+        <item>Warehouse</item>
+        <item>Residential</item>
+        <item>Retail</item>
+        <item>Other</item>
+    </string-array>
+</resources>
